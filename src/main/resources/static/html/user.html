@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+<h3>用户详情</h3>
+    <!-- 展示普通文本-->
+    用户名:<span th:text="${user.username}"></span>
+    密码:<input th:value="${user.password}"/>
+</center>
+</body>
+</html>
